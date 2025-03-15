@@ -5,7 +5,7 @@ import KeyFeatures from '../KeyFeatures/KeyFeatures'
 import CoursesOverview from '../CoursesOverview/Courseoverview'
 import Testimonials from '../Testimonials/Testimonials'
 import FAQs from '../FAQs/Faq'
-import ThePlatform from "../ThePlatform/platform"
+// import ThePlatform from "../ThePlatform/platform"
 import ContactForm from '../Contacts/Contacts'
 import FooterComponent from '../FooterSection/Footer'
 
@@ -16,7 +16,7 @@ const LandingPage = () => {
        <Navbar/>
        <HeroSection/>
        <KeyFeatures/>
-       <ThePlatform/>
+       {/* <ThePlatform/> */}
        <CoursesOverview/>
        <Testimonials/>
        <FAQs/>
